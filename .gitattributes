@@ -1,0 +1,25 @@
+# Auto-normalize text files and prevent LF/CRLF churn
+# Treat common text files as text and normalize line endings in the repo to LF
+* text=auto eol=lf
+
+# Explicitly mark common text-based source files
+*.java text
+*.kt text
+*.xml text
+*.gradle text
+*.properties text
+*.txt text
+*.md text
+
+# Treat images and binaries as binary (do not change line endings)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.jar binary
+*.aar binary
+
+# End of .gitattributes
+
