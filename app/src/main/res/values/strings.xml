@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Barber POS</string>
+
+    <!-- Login screen strings -->
+    <string name="login_title">BarberPOS</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password_label">Forgot password?</string>
+    <string name="app_logo_desc">BarberPOS logo</string>
+    <string name="create_account_label">Create an account</string>
+    <string name="logo_letter">B</string>
+
+    <!-- Hints -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <!-- Validation / toasts -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    <string name="forgot_password_toast">Forgot password tapped</string>
+
+    <!-- Registration -->
+    <string name="register_title">Create account</string>
+    <string name="name_hint">Name</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="back_to_login_label">Back to login</string>
+    <string name="registration_success_toast">Account created</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_name_required">Name is required</string>
+
+    <!-- Roles -->
+    <string name="role_employee">Employee</string>
+    <string name="role_manager">Manager</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Welcome, %1$s</string>
+    <string name="dashboard_title">Cut Master</string>
+    <string name="todays_appointments">Today\'s Appointments</string>
+    <string name="appointments_label">Appointments</string>
+    <string name="customers_label">Customers</string>
+    <string name="services_label">Services</string>
+    <string name="reports_label">Reports</string>
+    <string name="no_appointments">No appointments for today</string>
+
+    <!-- Dashboard counts/subtext (moved from hardcoded layout strings) -->
+    <string name="appointments_today_count">5 today</string>
+    <string name="customers_count">120</string>
+    <string name="services_count">8</string>
+    <string name="reports_sub">Weekly</string>
+
+    <!-- New stable names to avoid unresolved-symbol issues -->
+    <string name="dashboard_appointments_count">5 today</string>
+    <string name="dashboard_customers_count">120</string>
+    <string name="dashboard_services_count">8</string>
+    <string name="dashboard_reports_sub">Weekly</string>
+
+    <!-- Logout -->
+    <string name="logout">Logout</string>
+    <string name="logout_toast">Logged out</string>
+
+</resources>

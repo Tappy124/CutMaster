@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core neutrals -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Barber brand colors -->
+    <color name="barber_blue">#1E88E5</color>
+    <color name="barber_blue_dark">#1565C0</color>
+    <color name="barber_red">#E53935</color>
+    <color name="barber_red_dark">#C62828</color>
+
+    <!-- Material tokens mapped to the barber palette -->
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryVariant">#1565C0</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+
+    <color name="colorSecondary">#E53935</color>
+    <color name="colorSecondaryVariant">#C62828</color>
+    <color name="colorOnSecondary">#FFFFFFFF</color>
+
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="colorOnBackground">#FF000000</color>
+
+    <color name="colorSurface">#FFFFFFFF</color>
+    <color name="colorOnSurface">#FF000000</color>
+</resources>
